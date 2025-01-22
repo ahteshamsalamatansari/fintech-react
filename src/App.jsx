@@ -1,15 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
-    <>
-      <H1>Coming Soon</H1>
-    </>
+    <div className="flex justify-center items-center mx-auto"><h1 className="text-4xl text-red-400" > Coming Soon </h1></div>
   )
 }
 
