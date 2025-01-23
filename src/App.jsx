@@ -1,9 +1,31 @@
+import styles from "./style";
+import {Billing, Business , CardDeal, Clients, CTA, Footer, Hero, Navbar, Stats, Testimonials} from  "./components/index"
 
+const App = () => (
+  <div className="bg-primary w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}><Navbar/></div>
+    </div>
 
-const App = () => {
-  return (
-    <div className="flex justify-center items-center mx-auto"><h1 className="text-4xl text-red-400" > Coming Soon </h1></div>
-  )
-}
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero/>
+      </div>
+    </div> 
 
-export default App
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Stats/>
+        <Business/>
+        <Billing/>
+        <CardDeal/>
+        <Testimonials/>
+        <Clients/>
+        <CTA/>
+       < Footer/>
+      </div>
+    </div>    
+  </div>
+);
+
+export default App;
