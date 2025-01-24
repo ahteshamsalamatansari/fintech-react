@@ -41,15 +41,21 @@ const Hero = () => (
     </div>
     {/* hero right starts here */}
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative `}>
-      <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img
+        src={robot}
+        alt="billing"
+        className="w-[100%] h-[100%] relative z-[5]"
+      />
       {/* background gradient classes available in style.js */}
-      <div className="absolute z-[0] w-[40%] h-[40%] top-0 pink__gradient"/>
-      <div className="absolute z-[0] w-[80%] h-[80%] rounded-full bottom-40 white__gradient"/>
-      <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"/>
-
+      <div className="absolute z-[0] w-[40%] h-[40%] top-0 pink__gradient" />
+      <div className="absolute z-[0] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
+      <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
     </div>
+    {/* hero right ends here */}
+
+    {/* Get Started Button for mobile */}
     <div className={`ss:hidden ${styles.flexCenter}`}>
-      <GetStarted/>
+      <GetStarted />
     </div>
   </section>
 );
