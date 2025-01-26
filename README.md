@@ -1,7 +1,11 @@
 # HooBank 🏦💳
 
 <div align="center" style="background-color: #00040f; padding: 10px;">
-  <img src="./src/assets/logo.svg" alt="logo" title="Hoobank" />
+  <svg width="2" height="1" xmlns="http://www.w3.org/2000/svg">
+  <rect fill="#00040f" />
+ 
+  <img src="./src/assets/logo.svg" width="" height="100" />
+</svg>
 </div>
 
 ## Modern Digital Banking Experience
