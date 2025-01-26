@@ -1,6 +1,6 @@
 # HooBank 🏦💳
 
-<div align="center">
+<div align="center" style="background-color: #00040f; padding: 10px;">
   <img src="./src/assets/logo.svg" alt="logo" title="Hoobank" />
 </div>
 
