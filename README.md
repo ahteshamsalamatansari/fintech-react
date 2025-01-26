@@ -39,8 +39,8 @@
 ## 🔧 Installation
 
 ```bash
-git clone https://github.com/yourusername/hoobank.git
-cd hoobank
+git clone https://github.com/ahteshamsalamatansari/fintech-react.git
+cd fintech-react
 npm install
 npm run dev
 ```
